@@ -2,6 +2,7 @@
 
 var express = require('express');
 var Q       = require('q');
+var exec    = require('exec');
 
 var router = express.Router();
 
