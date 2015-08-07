@@ -1,0 +1,15 @@
+{
+  "name": "postreceive",
+  "version": "0.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "~1.5.0",
+    "express": "~4.0.0",
+    "express-x-hub": "^1.0.3",
+    "q": "^1.4.1"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "private": true
+}
