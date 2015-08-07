@@ -21,7 +21,7 @@ app.use(methodOverride());
 app.use('/ghup', require('./githubhook'));
 
 // Start server
-server.listen(80, process.env.IP, function () {
+server.listen(process.env.POSTRECEIVE_PORT, process.env.IP, function () {
   console.log('Express server listening on 80');
 });
 
