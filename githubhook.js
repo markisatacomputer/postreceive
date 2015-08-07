@@ -5,7 +5,7 @@ var Q       = require('q');
 
 var router = express.Router();
 
-router.get('/', function(req, res) {
+router.post('/', function(req, res) {
   //  Reject if not Xhub
   if(!req.isXHub) { 
     return this.reject('No X-Hub Signature', req, res);
